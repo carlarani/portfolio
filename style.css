@@ -1,0 +1,64 @@
+/* font-family: 'Neucha', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Yomogi', cursive; */
+
+* {
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid black; */
+}
+
+body {
+    padding: 2%;
+}
+
+h1 {
+    font-family: 'Neucha', cursive;
+    font-weight: 400;
+    letter-spacing: 6px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: bottom;
+}
+
+li {
+    margin: 0 10px;
+}
+
+#starter {
+    width: 40%;
+    margin: 30px 30px 30px auto;
+}
+
+.starter-chamada {
+    font-size: 30px;
+}
+
+.starter-chamada-developer {
+    font-weight: bold;
+}
+
+#starter figure {
+    z-index: -1;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    opacity: 0.7;
+}
+
+img {
+    width: 110%;
+}
