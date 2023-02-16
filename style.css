@@ -4,15 +4,19 @@ font-family: 'Yomogi', cursive; */
 
 * {
     font-family: 'Poppins', sans-serif;
-    /* border: 1px solid black; */
+    color: #e0daa3;
+    /* border: 1px solid white; */
 }
 
 body {
     padding: 2%;
+    background-color: #03001c;
+
 }
 
 h1 {
     font-family: 'Neucha', cursive;
+    font-size: 3em;
     font-weight: 400;
     letter-spacing: 6px;
 }
@@ -34,13 +38,40 @@ nav ul {
     align-items: bottom;
 }
 
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+}
+
+/* a:hover {
+    text
+} */
+
 li {
     margin: 0 10px;
+}
+
+#img-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 #starter {
     width: 40%;
     margin: 30px 30px 30px auto;
+}
+
+#starter-text {
+    padding: 2% 5%;
+    background-color: #03001c;
+    /* background: linear-gradient(0deg, rgba(3, 0, 28, 1) 30%, transparent 80%, transparent 100%); */
+    border-radius: 5px;
+
+    /* background: radial-gradient(circle, rgba(3, 0, 28, 1) 80%, transparent 90%); */
+    color: #e0daa3;
 }
 
 .starter-chamada {
@@ -55,10 +86,61 @@ li {
     z-index: -1;
     position: absolute;
     top: -10%;
-    left: -10%;
+    left: -910%;
     opacity: 0.7;
 }
 
 img {
     width: 110%;
+}
+
+/* about-me */
+#about-me,
+#projects {
+    width: 60%;
+    padding: 3%;
+    text-align: justify;
+    margin: auto;
+    background-color: #03001c;
+    color: #e0daa3;
+    border-radius: 5px;
+}
+
+/* projects */
+
+.div-project {
+    display: flex;
+    margin: 3%;
+    justify-content: center;
+}
+
+.img-projects {
+    width: 95%;
+    padding: 2%;
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+/* footer */
+
+#contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e0daa3
+}
+
+footer a {
+    margin: 20px;
+}
+
+.icon {
+    width: 48px;
 }
